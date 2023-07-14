@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*******************
+     common css
+********************/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*******************
+     header css
+********************/
+
+.strict-header {
+    width: 100%;
+    background: #f6f9f9;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 3;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {}
+
+.menu ul li:last-child a {
+    padding: 0;
+}
+
+.menu ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: #454444;
+    padding: 0 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.mobile-icon {
+    display: none;
+}
+
+/*******************
+ discription section
+********************/
+
+.discription {
+    background-image: url(../img/cover.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 215px 0 90px;
+
+}
+
+.strict-part h1 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: #ffffff;
+}
+
+.strict-dis {
+    display: inline-block;
+}
+
+.strict-dis p {
+    padding: 40px 0 66px;
+    border-top: 1px solid #15a4fa;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.strict-dis button {
+    border: 1px solid #15a4fa;
+    padding: 15px 40px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.chevron {
+    margin-top: 180px;
+}
+
+.chevron .fa-chevron-down {
+    color: #fff;
+    font-size: 18px;
+}
+
+/*******************
+ service section
+********************/
+.services-section{}
+.services{
+    text-align: center;
+    padding: 80px 0;
+}
+.servises-ttile {}
+.servises-ttile h2{
+    color: #2d3950;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.servises-ttile p{
+    color: #999;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.boxes{
+    padding: 0 25px;
+}
+.servises-box {
+    width: 36px;
+    height: 100px;
+    width:100px;
+    margin: 0 auto;
+    background: linear-gradient(90deg,#47b9ff 50%,#5fc3ff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servises-box i{
+    color: #fff;
+    font-size: 40px;
+}
+.service-text{}
+.service-text h2{
+    color: #2d3950;
+    font-size: 22px;
+    margin: 32px 0;
+}
+.service-text p{
+    color: #999;
+    font-size: 12px;
+}
+
+/*******************
+work section
+********************/
+.strict-work{
+    background: #f5f9f9;
+    padding-bottom: 116px;
+}
+.strict-title{
+    text-align: center;
+    padding: 80px 0;
+}
+.strict-title h2{
+    font-size: 41px;
+    color: #2d3950;
+    margin-bottom: 25px;
+}
+.strict-title p{
+    font-size: 15px;
+    color: #2d3950;
+}
+.strict-img{
+    position: relative;
+    margin-bottom: 25px;
+}
+.strict-img img{
+    width: 100%;
+}
+.strict-hover{
+    background: rgba(21, 163, 249, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.8s;
+}
+.strict-hover:hover{
+    opacity: 1;
+}
+.strict-hover ul{
+    display: flex;
+}
+.strict-hover ul li{}
+.strict-hover ul li i{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+/*******************
+contuct section
+********************/
+.strict-contuct{
+    background: url('../img/contact.png');
+}
+.strict-contuct-leyar{
+    background: #2d394f;
+    opacity: 0.9;
+}
+.strict-contuct-leyar .strict-title h2{
+    color: #fff;
+}
+.strict-contuct-leyar .strict-title p{
+    color: #999999;
+}
+
+input,textarea{
+    width: 100%;
+    background-color: transparent;
+}
